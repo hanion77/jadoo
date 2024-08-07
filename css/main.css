@@ -41,6 +41,7 @@ body{
   font-family: "Poppins", sans-serif;
   */
   font:var(--fz)/var(--lh) "Poppins", sans-serif;
+  color: var(--txt-color);
 }
 
 
@@ -120,10 +121,6 @@ header{
 .login_links a:hover{
   border-color: #212832;
 }
-button{
-  background: none;
-  border: none;
-}
 
 .top_nav .dropdown{
   position: relative;
@@ -145,4 +142,40 @@ button{
 }
 .top_nav .dropdown ul li:hover{
   color: #5E6282;
+}
+
+header .content{
+ display: flex;
+ justify-content: space-between;
+}
+
+header .content .desc{
+  width: 545px;
+}
+
+header .content .desc h3{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #DF6951;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+header .content .desc h2{
+  color: #181E4B;
+  font-family: Volkhov;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -3.36px;
+  margin-bottom: 30px;
+}
+
+header .content .desc p{
+  width: 477px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 34px;
 }

@@ -61,6 +61,7 @@ header{
 .top_nav > div{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .top_nav.fixed{
@@ -72,8 +73,6 @@ header{
   background: rgba(255,255,255,.8);
   box-shadow: 0 3px 3px rgba(0,0,0,.06);
 }
-
-
 
 .top_nav nav{
   display: flex;
@@ -91,4 +90,32 @@ header{
 .login_links{
   gap: 50px;
   margin-right: 42px ;
+}
+
+.logo a{
+  width: 116px;
+  height: 35px;
+  background: url(../images/Logo.svg) no-repeat;
+  display: block;
+  text-indent: -9999em;
+}
+
+.top_nav a{
+  font-family: 'Product Sans Medium Regular';
+  font-size: 17px;
+  color: #212832;
+}
+
+.login_links a{
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid transparent ;
+  display: block;
+  border-radius: 5px;
+  line-height: 40px;
+  transition: 0.3s;
+}
+
+.login_links a:hover{
+  border-color: #212832;
 }

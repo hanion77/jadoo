@@ -33,13 +33,16 @@ font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* 폰트 */
-/*
+
 body{
+  /*
   font-size: var(--fz);
   line-height: var(--lh);
   font-family: "Poppins", sans-serif;
+  */
+  font:var(--fz)/var(--lh) "Poppins", sans-serif;
 }
-*/
-font:var(--fz)/var(--lh) "Poppins", sans-serif;
+
+
 
 /* 링크 버튼 */

@@ -76,6 +76,7 @@ header{
 
 .top_nav nav{
   display: flex;
+  align-items: centers;
 }
 
 .top_nav ul{
@@ -118,4 +119,30 @@ header{
 
 .login_links a:hover{
   border-color: #212832;
+}
+button{
+  background: none;
+  border: none;
+}
+
+.top_nav .dropdown{
+  position: relative;
+}
+.top_nav .dropdown ul{
+  position: absolute;
+  right: 0;
+  top: 100%;
+  padding: 5px;
+  border:1px solid #212832 ;
+  flex-direction: column;
+  border-radius: 5px;
+  background:var(--white);
+  display: none;
+}
+.top_nav .dropdown ul li{
+  line-height: 30px;
+  padding: 0 15px;
+}
+.top_nav .dropdown ul li:hover{
+  color: #5E6282;
 }

@@ -46,3 +46,49 @@ body{
 
 
 /* 링크 버튼 */
+
+/* HEADER */
+header{
+  padding: 47px 0;
+  background :
+  url(../images/header_bg.svg) top right no-repeat,
+  url(../images/header_ellipse.svg) left top no-repeat;
+}
+.top_nav{
+  padding: 47px 0;
+}
+
+.top_nav > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_nav.fixed{
+  position: fixed;
+  padding: 20px 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 3px 3px rgba(0,0,0,.06);
+}
+
+
+
+.top_nav nav{
+  display: flex;
+}
+
+.top_nav ul{
+  display: flex;
+}
+
+.main_menu{
+  gap: 60px;
+  margin-right: 86px;
+}
+
+.login_links{
+  gap: 50px;
+  margin-right: 42px ;
+}

@@ -50,7 +50,7 @@ body{
 
 /* HEADER */
 header{
-  padding: 47px 0;
+  
   background :
   url(../images/header_bg.svg) top right no-repeat,
   url(../images/header_ellipse.svg) left top no-repeat;

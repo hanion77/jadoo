@@ -1,2 +1,29 @@
 @charset 'UTF-8';
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'Product Sans Medium Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Medium Regular'), url('../fonts/ProductSans-Medium.woff') format('woff');
+  }
+
+/* 변수 */
+:root{
+--txt-color:#5E6282;
+--white:white;
+--container:1170px;
+--fz:16px;
+--lh:26px;
+}
+
+/* 레이아웃 */
+.container{
+  width:var(--container);
+  margin: 0 auto;
+}
+
+/* 폰트 */
+
+
+/* 링크 버튼 */

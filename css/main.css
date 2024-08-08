@@ -332,3 +332,56 @@ header .content .desc p{
   background: url(../images/services_right_top.svg) no-repeat;
 }
 
+/* DESTIMATIONS */
+.destinations_list{
+  padding: 0 92px 0 32px;
+  display: flex;
+  justify-content: space-between;
+  background: url(../images/top_destimation.svg) 1043px bottom no-repeat;
+}
+
+.destinations_list li{
+  width: 315px;
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02), 
+  0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 
+  0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 
+  0px 20px 13px 0px rgba(0, 0, 0, 0.01), 
+  0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 
+  0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+}
+
+.destinations_list li img{
+  width: 100%;
+}
+
+.destinations_list li figcaption{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--white);
+  padding: 27px 25px 42px 20px;
+}
+
+.destinations_list h4{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.destinations_list p{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.destinations_list p i{
+  color: #000;
+}
